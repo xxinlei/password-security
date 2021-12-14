@@ -13,6 +13,12 @@
 		F789B5602761A18F00756829 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F789B55E2761A18F00756829 /* Main.storyboard */; };
 		F789B5622761A19000756829 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F789B5612761A19000756829 /* Assets.xcassets */; };
 		F789B5652761A19000756829 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F789B5632761A19000756829 /* LaunchScreen.storyboard */; };
+		F789B56F2764DCCD00756829 /* infoConfirmVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F789B56E2764DCCD00756829 /* infoConfirmVC.swift */; };
+		F789B57227672BC600756829 /* NotoSansTC-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = F789B57027672BC600756829 /* NotoSansTC-Black.otf */; };
+		F789B57327672BC600756829 /* NotoSansTC-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = F789B57127672BC600756829 /* NotoSansTC-Bold.otf */; };
+		F789B5772767883F00756829 /* password.swift in Sources */ = {isa = PBXBuildFile; fileRef = F789B5762767883F00756829 /* password.swift */; };
+		F789B57B276870F600756829 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F789B57A276870F600756829 /* UIColorExtension.swift */; };
+		F789B57F2768765C00756829 /* NotoSansTC-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = F789B57E2768765C00756829 /* NotoSansTC-Medium.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,12 @@
 		F789B5612761A19000756829 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F789B5642761A19000756829 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F789B5662761A19000756829 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F789B56E2764DCCD00756829 /* infoConfirmVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = infoConfirmVC.swift; sourceTree = "<group>"; };
+		F789B57027672BC600756829 /* NotoSansTC-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansTC-Black.otf"; sourceTree = "<group>"; };
+		F789B57127672BC600756829 /* NotoSansTC-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansTC-Bold.otf"; sourceTree = "<group>"; };
+		F789B5762767883F00756829 /* password.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = password.swift; sourceTree = "<group>"; };
+		F789B57A276870F600756829 /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		F789B57E2768765C00756829 /* NotoSansTC-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansTC-Medium.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +71,16 @@
 				F789B5582761A18F00756829 /* AppDelegate.swift */,
 				F789B55A2761A18F00756829 /* SceneDelegate.swift */,
 				F789B55C2761A18F00756829 /* ViewController.swift */,
+				F789B5762767883F00756829 /* password.swift */,
+				F789B57A276870F600756829 /* UIColorExtension.swift */,
+				F789B56E2764DCCD00756829 /* infoConfirmVC.swift */,
 				F789B55E2761A18F00756829 /* Main.storyboard */,
 				F789B5612761A19000756829 /* Assets.xcassets */,
 				F789B5632761A19000756829 /* LaunchScreen.storyboard */,
 				F789B5662761A19000756829 /* Info.plist */,
+				F789B57027672BC600756829 /* NotoSansTC-Black.otf */,
+				F789B57127672BC600756829 /* NotoSansTC-Bold.otf */,
+				F789B57E2768765C00756829 /* NotoSansTC-Medium.otf */,
 			);
 			path = "password security";
 			sourceTree = "<group>";
@@ -125,7 +143,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F789B57F2768765C00756829 /* NotoSansTC-Medium.otf in Resources */,
+				F789B57327672BC600756829 /* NotoSansTC-Bold.otf in Resources */,
 				F789B5652761A19000756829 /* LaunchScreen.storyboard in Resources */,
+				F789B57227672BC600756829 /* NotoSansTC-Black.otf in Resources */,
 				F789B5622761A19000756829 /* Assets.xcassets in Resources */,
 				F789B5602761A18F00756829 /* Main.storyboard in Resources */,
 			);
@@ -138,8 +159,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F789B56F2764DCCD00756829 /* infoConfirmVC.swift in Sources */,
+				F789B57B276870F600756829 /* UIColorExtension.swift in Sources */,
 				F789B55D2761A18F00756829 /* ViewController.swift in Sources */,
 				F789B5592761A18F00756829 /* AppDelegate.swift in Sources */,
+				F789B5772767883F00756829 /* password.swift in Sources */,
 				F789B55B2761A18F00756829 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -297,6 +321,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -306,7 +331,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -325,6 +350,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -334,7 +360,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
